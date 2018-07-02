@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Game Over
+GET /favicon.ico HTTP/1.1
+
+bw.write("HTTP/1.1 200 OK\n");
+bw.write("Content-Type: text/html; charset=UTF-8\n\n");
+[ab|cd|de]
+"ico"|"png"|"jpg"|"gif"
+
+image/x-icon
+
+
+利用socket套接字开发web服务器
+评分标准：
+能利用浏览器访问静态网页（同时显示图片），及格
+支持get和post请求，服务器端能输出用户的get和post请求的参数，良好 
+支持查询数据库并将结果能显示在浏览器中 优秀
+
+成绩查询, 成绩添加.

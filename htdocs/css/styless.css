@@ -1,0 +1,570 @@
+/*--A Design by 小贝壳网站模板 
+Author: W3layout
+Author URL: http://www.smallseashell.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/*--- reset code ---*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol,ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+blockquote,q {
+	quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* start editing from here */
+a {
+	text-decoration:none;
+}
+.txt-rt {
+	text-align:right;
+}/* text align right */
+.txt-lt {
+	text-align:left;
+}/* text align left */
+.txt-center {
+	text-align:center;
+/*-- 小贝壳网站模板 --*/	
+}/* text align center */
+.float-rt {
+	float:right;
+}/* float right */
+.float-lt {
+	float:left;
+}/* float left */
+.clear {
+	clear:both;
+}/* clear float */
+.pos-relative {
+	position:relative;
+}/* Position Relative */
+.pos-absolute {
+	position:absolute;
+}/* Position Absolute */
+.vertical-base {	
+	vertical-align:baseline;
+}/* vertical align baseline */
+.vertical-top {	
+	vertical-align:top;
+}/* vertical align top */
+nav.vertical ul li {	
+	display:block;
+}/* vertical menu */
+nav.horizontal ul li {	
+	display: inline-block;
+}/* horizontal menu */
+img {
+	max-width:100%;
+}
+
+/*--- end reset code ---*/
+body {
+	background:url(../images/banner.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-ms-background-size:100% 100%;
+	font-family: 'Muli', sans-serif;
+}
+h1.header-小贝壳网站模板 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+.content-w3ls {
+	width:70%;
+	margin:50px auto;
+	padding:0;
+}
+.content-w3ls .inner-agileits1 {
+	width:32%;
+	float:left;
+	position:relative;
+	height:629px;
+}
+.content-w3ls .inner-agileits1 img.inner-w3ls {
+	width:100%;
+	min-height:100%;
+}
+.content-w3ls .inner-agileits1 .b-wrapper {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    top:0;
+	height:100%;
+    left: 0;
+    padding: 0;
+    transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+    text-align: center;
+    overflow: hidden;
+}
+.content-w3ls .inner-agileits1 .b-wrapper h2 {
+	font-size: 27px;
+    font-weight:400;
+    padding-top: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 142, 75, 0.63);
+    font-family: 'Raleway', sans-serif;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+	font-size: 17px;
+    font-weight: normal;
+    padding: 450px 20px 0;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.58);
+    line-height: 35px;
+}
+.content-w3ls .inner-agileits2 {
+	width:68%;
+	background-color:rgba(0, 0, 0, 0.48);
+	float:left;
+}
+.form-wthree {
+    padding: 46px 50px;
+}
+.form-control {
+    padding-bottom: 30px;
+}
+label.header {
+    font-size: 16px;
+    font-weight: 500;
+    color:#fbb5b5;
+	padding-left:15px;
+	text-align:justify;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+	margin-bottom:10px;
+	font-family: 'Raleway', sans-serif;
+}
+input#name,input#email,input#password1,input#password2 {
+	padding:0 15px;
+    width:95%;
+	height:45px;
+    border: 2px solid #fff;
+	border-left-color:transparent;
+	border-right-color:transparent;
+	border-top-color:transparent;
+    color: #fff;
+    text-align:justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+	font-weight:normal;
+    background-color:rgba(82, 56, 76, 0.15);
+	font-family: 'Muli', sans-serif;	
+}
+input::-webkit-input-placeholder {
+color: #fff !important;
+} 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+} 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+} 
+input:-ms-input-placeholder {  
+color: #fff !important;  
+}
+/*--checkbox--*/
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 2em;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+input[type="checkbox"]+label span:first-child {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 0;
+	background:transparent;
+	top:3px;
+	border-radius:25%;
+	-webkit-border-radius:25%;
+	-moz-border-radius:25%;
+	-o-border-radius:25%;
+	-ms-border-radius:25%;
+}
+input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left:2px;
+    top:2px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+/*--//checkbox--*/
+.register {
+	background-color: #f15f22;
+    width: 52%;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: normal;
+	font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -ms-border-radius: 30px;
+	font-family: 'Muli', sans-serif;
+}	
+.register:hover {
+	background-color:#36b051;
+	color:#fff;
+}
+p.copyright {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+p.copyright a {
+	color:#f15f22;
+}
+p.copyright a:hover {
+	color:#36b051;
+}
+
+/*-- responsive design --*/
+@media (max-width:1600px) {
+	.content-w3ls .inner-agileits1 {
+    width: 34%;
+}
+	.content-w3ls .inner-agileits2 {
+    width: 66%;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+	font-size:16px;
+}
+}
+
+@media (max-width:1440px) {
+.content-w3ls {
+    width: 75%;
+}
+.content-w3ls .inner-agileits1 {
+    width: 37%;
+}
+.content-w3ls .inner-agileits2 {
+    width: 63%;
+}
+input#name, input#email, input#password1, input#password2 {
+	width:94%;
+}	
+}
+
+@media (max-width: 1366px) {
+.content-w3ls .inner-agileits1 {
+    width: 41%;
+}
+.content-w3ls .inner-agileits2 {
+    width: 59%;
+}
+input#name, input#email, input#password1, input#password2 {
+	width:93%;
+}
+}
+
+@media (max-width: 1080px) {
+h1.header-小贝壳网站模板 {
+	font-size:35px;
+	padding-top:35px;	
+}
+.content-w3ls .inner-agileits1 {
+    width: 50%;
+}
+.content-w3ls .inner-agileits2 {
+    width: 50%;
+}
+.register {
+	width:100%;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 89%;
+}
+}
+
+@media (max-width: 1024px) {
+.content-w3ls {
+    width: 80%;
+}
+.form-wthree {
+    padding: 46px 35px;
+}
+input#name, input#email, input#password1, input#password2 {
+	width:89%;
+}
+.content-w3ls {
+	margin: 35px auto 50px;
+}
+}
+
+@media (max-width: 991px) {
+.content-w3ls {
+    width: 85%;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 90%;
+}
+}
+
+@media (max-width: 900px) {
+input#name, input#email, input#password1, input#password2 {
+    width: 89%;
+}
+}
+
+@media (max-width: 800px) {
+.content-w3ls {
+    width: 90%;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 90%;
+}
+.content-w3ls .inner-agileits1,.content-w3ls .inner-agileits2 {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+}
+.content-w3ls .inner-agileits1 {
+    height: inherit;
+}
+}
+
+@media (max-width:768px) {
+.content-w3ls .inner-agileits1,.content-w3ls .inner-agileits2 {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 90%;
+}
+}
+
+@media (max-width: 667px) {
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 70%;
+    float: none;
+    margin: 0 auto;
+}
+}
+
+@media (max-width: 600px) {
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+}
+}
+
+@media (max-width: 568px) {
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 90%;
+}
+p.copyright {
+	padding:0 20px 20px;
+	line-height:30px;
+}
+}
+
+@media (max-width: 480px) {
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 85%;
+    float: none;
+    margin: 0 auto;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+    padding: 360px 20px 0;
+}
+label.header {
+    font-size: 14px;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 89%;
+	height:40px;
+} 
+input[type="checkbox"]+label {
+	font-size:15px;
+}
+input[type="checkbox"]+label span:first-child {
+	top:0px;
+}
+ .register {
+    height: 40px;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 414px) {
+h1.header-小贝壳网站模板 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+.content-w3ls {
+    margin: 25px auto 35px;
+}
+.content-w3ls .inner-agileits1 img.inner-w3ls {
+    width: 100%;
+    min-height: inherit;
+}
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+	padding:315px 20px 0;
+} 
+.content-w3ls .inner-agileits1 {
+	height:485px;
+}
+.form-wthree {
+    padding: 35px 30px;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 87%;
+}
+p.copyright {
+    font-size: 14px;
+}
+}
+
+@media (max-width:384px) {
+.content-w3ls .inner-agileits1 .b-wrapper p {
+    padding: 300px 20px 0;
+	font-size:14px;
+	line-height:30px;
+}
+.content-w3ls .inner-agileits1 {
+    height: 448px;
+}
+label.header {
+    padding-left:10px;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 90%;
+	padding:0 10px;
+}
+.register {
+	height:45px;
+	font-size:17px;
+}
+}
+
+@media (max-width: 375px) {
+.content-w3ls .inner-agileits1 {
+    height: 437px;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+    padding: 290px 15px 0;
+}
+label.header {
+	margin-bottom:7px;
+}
+}
+
+@media (max-width: 320px) {
+h1.header-小贝壳网站模板 {
+    font-size: 20px;
+}
+.content-w3ls .inner-agileits1 .b-wrapper p {
+    padding: 230px 0px 0;
+	font-size:13px;
+}
+.content-w3ls .inner-agileits1 {
+    height: 388px;
+}
+.content-w3ls {
+    width: 85%;
+}
+.content-w3ls .inner-agileits1, .content-w3ls .inner-agileits2 {
+    width: 100%;
+}
+label.header {
+    font-size: 13px;
+}
+.form-wthree {
+    padding: 25px 20px;
+}
+.form-control {
+    padding-bottom: 23px;
+}
+input#name, input#email, input#password1, input#password2 {
+    width: 89%;
+	height:30px;
+}
+input[type="checkbox"]+label {
+    font-size: 14px;
+}
+.register {
+    height: 40px;
+    font-size: 16px;
+}
+}
+
+
+
+
+
+/*-- /responsive design --*/
